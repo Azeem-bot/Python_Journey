@@ -21,7 +21,6 @@ screen.onkey(r_side.go_down,"Down")
 screen.onkey(l_side.go_up,"w")
 screen.onkey(l_side.go_down,"s")
 
-
 game_is_on = True
 while game_is_on:
     time.sleep(ball.move_speed)

@@ -24,6 +24,7 @@ graph_config = {
     "type": "int",
     "color": "ajisai"
 }
+
 headers = {
     "X-USER-TOKEN": TOKEN
 }

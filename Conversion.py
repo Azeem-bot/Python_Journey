@@ -21,7 +21,7 @@ def reset():
 
         Again = input("Do you want to continue?(yes/no) :").lower()
         if Again != "yes":
-            print(" Exiting program. Goodbye!")
+            print("Exiting program. Goodbye!")
             break
 
 reset()

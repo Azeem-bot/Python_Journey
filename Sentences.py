@@ -1,6 +1,6 @@
 import string
 
-sentence = input("Enter a sentence : ")
+sentence = input("Enter a sentence: ")
 
 wordList = sentence.strip().split(" ")
 print(f'This sentence has {len(wordList)} words', end='\n\n')

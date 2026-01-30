@@ -13,4 +13,4 @@ elif m3 <= m1 and m3 <= m2:
     chosen = ("Test1",m1,"Test2",m2)
 
 print(f"Best two tests: {chosen[0]} ({chosen[1]}), {chosen[2]} ({chosen[3]})")
-print(f"Average of best two test marks out of three test marks is:",avg_marks)
+print(f"Average of best two test marks out of three test marks is:", avg_marks)

@@ -17,4 +17,4 @@ def roman2Dec(romStr):
 
 
 romanStr = input("Enter a Roman Number : ")
-print("Equivalent Decimal number :",roman2Dec(romanStr))
+print("Equivalent Decimal number : ",roman2Dec(romanStr))

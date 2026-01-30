@@ -24,8 +24,7 @@ if weekday == 1:
         )
 
 
-
-## Sending Email with Python
+# Sending Email with Python
 # import smtplib
 #
 # my_email = "appbreweryinfo@gmail.com"

@@ -20,15 +20,3 @@ for i in range(short_string_length):
 
 print("Similarity between two said strings:")
 print(match_count / long_string_length)
-
-"""
-# An alternative solution to the same problem using Python libraries
-
-from difflib import SequenceMatcher
-
-str1 = input("Enter String 1 : ")
-str2 = input("Enter String 2 : ")
-
-sim = SequenceMatcher(None, str1, str2).ratio()
-
-print("Similarity between strings \"" + str1 + "\" and \"" + str2 + "\" is : ",sim)"""

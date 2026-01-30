@@ -4,7 +4,7 @@ from tkinter import *
 from pom import timer_label
 
 # ---------------------------- CONSTANTS ------------------------------- #
-PINK = "#e2979c"
+PINK = "#fd878f"
 RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"

@@ -11,6 +11,7 @@
 # #print(type(data))
 # #print(data["temp"].mean())
 # print(data[data.temp == data.temp.max()])
+
 import pandas
 data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20250904.csv")
 grey_squirrel = (len(data[data["Primary Fur Color"] == "Gray"]))

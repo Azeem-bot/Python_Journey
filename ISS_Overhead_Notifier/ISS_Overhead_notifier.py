@@ -31,6 +31,7 @@ def is_night():
     time_now = datetime.now()
     if time_now >= sunset or time_now <= sunrise:
         return True
+    
 while True:
     time.sleep(60)
     if iss_overhead() and is_night():

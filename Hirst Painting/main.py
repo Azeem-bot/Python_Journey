@@ -8,6 +8,7 @@ for color in colors:
     new_color = (r, g ,b)
     rgb_colors.append(new_color)
 print(rgb_colors) '''
+
 import turtle as turtle_module
 import random
 
